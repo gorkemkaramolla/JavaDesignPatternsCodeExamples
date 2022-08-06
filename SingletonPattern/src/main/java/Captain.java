@@ -7,10 +7,11 @@ final class Captain {
 
     static synchronized Captain getCaptain()
     {
+        //lazy Initialization
         if(captain == null)
         {
-            System.out.println("New Captain is elected for your team");
             captain = new Captain();
+            System.out.println("New Captain is elected for your team");
         }
         else
         {
