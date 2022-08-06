@@ -17,5 +17,8 @@ public class SingletonPatternExample {
         {
             System.out.println("captain1 and captain2 are same instance.");
         }
+        //We create an instance of nested CaptainDerived class by using captain1 object
+        //The lazy initialization of SingletonClass increase numberOfInstances of Captain class
+        Captain.CaptainDerived derived = captain1.new CaptainDerived();
     }
 }
