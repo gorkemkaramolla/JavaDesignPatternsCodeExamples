@@ -1,3 +1,5 @@
+package Lazy_Initialization_Singleton;
+
 public class SingletonPatternExample {
     public static void main(String[] args) {
         System.out.println("**** Singleton Pattern Demo ****");
@@ -19,6 +21,7 @@ public class SingletonPatternExample {
         }
         //We create an instance of nested CaptainDerived class by using captain1 object
         //The lazy initialization of SingletonClass increase numberOfInstances of Captain class
+
         Captain.CaptainDerived derived = captain1.new CaptainDerived();
     }
 }

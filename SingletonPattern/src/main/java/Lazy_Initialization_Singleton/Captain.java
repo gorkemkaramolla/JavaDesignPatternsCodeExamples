@@ -1,3 +1,5 @@
+package Lazy_Initialization_Singleton;
+
 //final class
 class Captain {
     //Constructor is private to prevent create a new instance from another class (with "new" keyword)
