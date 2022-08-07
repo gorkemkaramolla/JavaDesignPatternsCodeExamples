@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="PrototypePattern" />
         <module name="SingletonPattern" />
         <module name="FactoryPattern" />
       </profile>
@@ -13,6 +14,7 @@
     <bytecodeTargetLevel>
       <module name="AnotherProject" target="18" />
       <module name="Factory" target="18" />
+      <module name="PrototypePatterns" target="18" />
       <module name="VaskaranSarcarDesignPaterns" target="18" />
     </bytecodeTargetLevel>
   </component>

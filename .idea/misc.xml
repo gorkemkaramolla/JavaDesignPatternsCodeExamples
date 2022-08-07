@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/SingletonPatterns/pom.xml" />
         <option value="$PROJECT_DIR$/../SingletonPattern/pom.xml" />
         <option value="$PROJECT_DIR$/../FactoryPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/../PrototypePattern/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
