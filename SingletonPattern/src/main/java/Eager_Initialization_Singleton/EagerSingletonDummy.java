@@ -4,7 +4,7 @@ public class EagerSingletonDummy {
     public static void main(String[] args) {
         System.out.println("Eager Implementation Singleton\n\n");
         Captain.dummyMethod();
-        //When you call dummy method it calls captain class constructor, so it shows a wrong message.
+        //When you call dummy method it calls captain class constructor, so it shows a wrong message .
 
         System.out.println("Trying to make a captain for your team:");
 
